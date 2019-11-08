@@ -1,0 +1,14 @@
+Operator:     test_guide
+Label:        Test guide
+Path:         oplib:/Sop/test_guide?Sop/test_guide
+Icon:         SOP_subnet
+Table:        Sop
+License:      
+Extra:        
+User:         
+Inputs:       1 to 1
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Fri Nov  8 14:43:44 2019
+

@@ -1,0 +1,14 @@
+Operator:     test_timehshift
+Label:        Test timehshift
+Path:         oplib:/Sop/test_timehshift?Sop/test_timehshift
+Icon:         SOP_subnet
+Table:        Sop
+License:      
+Extra:        
+User:         
+Inputs:       1 to 1
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Fri Nov  8 14:40:12 2019
+
