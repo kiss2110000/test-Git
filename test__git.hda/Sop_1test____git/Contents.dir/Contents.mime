@@ -49,7 +49,7 @@ inputs
 stat
 {
   create 1573193815
-  modify 1573193866
+  modify 1573193883
   author Administrator@SJX
   access 0777
 }
@@ -184,7 +184,7 @@ inputs
 stat
 {
   create 1573193697
-  modify 1573193866
+  modify 1573193992
   author Administrator@SJX
   access 0777
 }
@@ -209,7 +209,7 @@ Content-Type: text/plain
       righttype = extend
       default = 1
       flags = 0
-      segment { length = 0 value = 1 1 expr = "@emit == 0" }
+      segment { length = 0 value = 1 1 expr = "@emitter == 0" }
     }
   }
 
@@ -226,7 +226,7 @@ geotype	[ 0	locks=0 ]	(	"all"	)
 stdswitcher	[ 0	locks=0 ]	(	0	0	0	0	)
 affectnumber	[ 0	locks=0 ]	(	"on"	)
 groupop	[ 0	locks=0 ]	(	"filter"	)
-filter	[ 8	locks=0 ]	(	[ filter	0 ] 	)
+filter	[ 8	locks=0 ]	(	[ filter	1 ] 	)
 pattern	[ 0	locks=0 ]	(	!*	)
 range	[ 0	locks=0 ]	(	0	[ rangeend	0 ] 	)
 select	[ 0	locks=0 ]	(	1	2	)
