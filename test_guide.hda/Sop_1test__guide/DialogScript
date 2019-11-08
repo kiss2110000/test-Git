@@ -1,0 +1,17 @@
+# Dialog script for test_guide automatically generated
+
+{
+    name	test_guide
+    script	test_guide
+    label	"Test guide"
+
+    help {
+	""
+    }
+
+    inputlabel	1	"Sub-Network Input #1"
+    inputlabel	2	"Sub-Network Input #2"
+    inputlabel	3	"Sub-Network Input #3"
+    inputlabel	4	"Sub-Network Input #4"
+
+}
