@@ -1,2 +1,4 @@
 Sop/attribwrangle C:/PROGRA~1/SIDEEF~1/HOUDIN~1.391/houdini/otls/OPlibSop.hda
 Sop/attribwrangle otls/OPlibSop.hda
+Dop/output C:/PROGRA~1/SIDEEF~1/HOUDIN~1.391/houdini/otls/OPlibDop.hda
+Dop/output otls/OPlibDop.hda
