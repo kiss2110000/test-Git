@@ -1,0 +1,14 @@
+Operator:     test__git
+Label:        Test  git
+Path:         oplib:/Sop/test__git?Sop/test__git
+Icon:         SOP_subnet
+Table:        Sop
+License:      
+Extra:        
+User:         
+Inputs:       1 to 1
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Fri Nov  8 14:17:51 2019
+
