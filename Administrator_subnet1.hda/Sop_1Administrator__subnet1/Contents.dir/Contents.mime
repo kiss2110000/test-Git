@@ -1,0 +1,320 @@
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY"
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="node_type"
+Content-Type: text/plain
+
+Sop
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot.init"
+Content-Type: text/plain
+
+type = Administrator_subnet1
+matchesdef = 0
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot.def"
+Content-Type: text/plain
+
+sopflags sopflags = 
+comment ""
+position -1.27417 5.55208
+connectornextid 0
+flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
+outputsNamed3
+{
+}
+inputsNamed3
+{
+}
+inputs
+{
+}
+stat
+{
+  create 1573204732
+  modify 1573205306
+  author Administrator@SJX
+  access 0777
+}
+color UT_Color RGB 0.8 0.8 0.8 
+delscript ""
+exprlanguage hscript
+end
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot.userdata"
+Content-Type: text/plain
+
+{
+	"___Version___":{
+		"type":"string",
+		"value":""
+	}
+}
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/point1.init"
+Content-Type: text/plain
+
+type = point
+matchesdef = 0
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/point1.def"
+Content-Type: text/plain
+
+sopflags sopflags = 
+comment ""
+position 0.17963 4.14883
+connectornextid 0
+flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
+outputsNamed3
+{
+}
+inputsNamed3
+{
+}
+inputs
+{
+}
+stat
+{
+  create 1573202832
+  modify 1573204720
+  author Administrator@SJX
+  access 0777
+}
+color UT_Color RGB 0.8 0.8 0.8 
+delscript ""
+exprlanguage hscript
+end
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/point1.chn"
+Content-Type: text/plain
+
+{
+    channel tx {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @P.x }
+    }
+    channel ty {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @P.y }
+    }
+    channel tz {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @P.z }
+    }
+    channel weight {
+      lefttype = extend
+      righttype = extend
+      default = 1
+      flags = 0
+      segment { length = 0 value = 1 1 expr = @P.w }
+    }
+    channel diffr {
+      lefttype = extend
+      righttype = extend
+      default = 1
+      flags = 0
+      segment { length = 0 value = 1 1 expr = @Cd.r }
+    }
+    channel diffg {
+      lefttype = extend
+      righttype = extend
+      default = 1
+      flags = 0
+      segment { length = 0 value = 1 1 expr = @Cd.g }
+    }
+    channel diffb {
+      lefttype = extend
+      righttype = extend
+      default = 1
+      flags = 0
+      segment { length = 0 value = 1 1 expr = @Cd.b }
+    }
+    channel alpha {
+      lefttype = extend
+      righttype = extend
+      default = 1
+      flags = 0
+      segment { length = 0 value = 1 1 expr = @Alpha }
+    }
+    channel nx {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @N.x }
+    }
+    channel ny {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @N.y }
+    }
+    channel nz {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @N.z }
+    }
+    channel mapu {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @uv.x }
+    }
+    channel mapv {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @uv.y }
+    }
+    channel mapw {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @uv.z }
+    }
+    channel tension {
+      lefttype = extend
+      righttype = extend
+      default = 1
+      flags = 0
+      segment { length = 0 value = 1 1 expr = @tension }
+    }
+    channel springk {
+      lefttype = extend
+      righttype = extend
+      default = 30
+      flags = 0
+      segment { length = 0 value = 30 30 expr = @springk }
+    }
+    channel vx {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @v.x }
+    }
+    channel vy {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @v.y }
+    }
+    channel vz {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @v.z }
+    }
+    channel upx {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @up.x }
+    }
+    channel upy {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @up.y }
+    }
+    channel upz {
+      lefttype = extend
+      righttype = extend
+      flags = 0
+      segment { length = 0 expr = @up.z }
+    }
+    channel pscale {
+      lefttype = extend
+      righttype = extend
+      default = 1
+      flags = 0
+      segment { length = 0 value = 1 1 expr = @pscale }
+    }
+  }
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/point1.parm"
+Content-Type: text/plain
+
+{
+version 0.8
+group	[ 0	locks=0 ]	(	""	)
+matchbyattribute	[ 0	locks=0 ]	(	"off"	)
+attributetomatch	[ 0	locks=0 ]	(	id	)
+stdswitcher	[ 0	locks=0 ]	(	0	0	0	0	)
+t	[ 8	locks=0 ]	(	[ tx	0 ] 	[ ty	0 ] 	[ tz	0 ] 	)
+doweight	[ 0	locks=0 ]	(	"off"	)
+weight	[ 8	locks=0 ]	(	[ weight	0 ] 	)
+doclr	[ 0	locks=0 ]	(	"off"	)
+diff	[ 8	locks=0 ]	(	[ diffr	0 ] 	[ diffg	0 ] 	[ diffb	0 ] 	)
+doalpha	[ 0	locks=0 ]	(	"off"	)
+alpha	[ 8	locks=0 ]	(	[ alpha	0 ] 	)
+donml	[ 0	locks=0 ]	(	"off"	)
+n	[ 8	locks=0 ]	(	[ nx	0 ] 	[ ny	0 ] 	[ nz	0 ] 	)
+douvw	[ 0	locks=0 ]	(	"off"	)
+map	[ 8	locks=0 ]	(	[ mapu	0 ] 	[ mapv	0 ] 	[ mapw	0 ] 	)
+domass	[ 0	locks=0 ]	(	"off"	)
+mass	[ 0	locks=0 ]	(	1	)
+drag	[ 0	locks=0 ]	(	1	)
+dotension	[ 0	locks=0 ]	(	"off"	)
+tension	[ 8	locks=0 ]	(	[ tension	0 ] 	)
+dospringk	[ 0	locks=0 ]	(	"off"	)
+springk	[ 8	locks=0 ]	(	[ springk	0 ] 	)
+dovel	[ 0	locks=0 ]	(	"off"	)
+v	[ 8	locks=0 ]	(	[ vx	0 ] 	[ vy	0 ] 	[ vz	0 ] 	)
+doup	[ 0	locks=0 ]	(	"off"	)
+up	[ 8	locks=0 ]	(	[ upx	0 ] 	[ upy	0 ] 	[ upz	0 ] 	)
+dopscale	[ 0	locks=0 ]	(	"off"	)
+pscale	[ 8	locks=0 ]	(	[ pscale	0 ] 	)
+doinstance	[ 0	locks=0 ]	(	"off"	)
+instancepath	[ 0	locks=0 ]	(	""	)
+doradius	[ 0	locks=0 ]	(	"off"	)
+radiusf	[ 0	locks=0 ]	(	1	)
+doscale	[ 0	locks=0 ]	(	"off"	)
+scalef	[ 0	locks=0 ]	(	1	)
+doradialf	[ 0	locks=0 ]	(	"off"	)
+radialf	[ 0	locks=0 ]	(	0	)
+donormalf	[ 0	locks=0 ]	(	"off"	)
+normalf	[ 0	locks=0 ]	(	0	)
+doedgef	[ 0	locks=0 ]	(	"off"	)
+edgef	[ 0	locks=0 ]	(	0	)
+dodirf	[ 0	locks=0 ]	(	"off"	)
+dirf	[ 0	locks=0 ]	(	0	0	0	)
+numcustom	[ 0	locks=0 ]	(	1	)
+apply1	[ 0	locks=0 ]	(	"on"	)
+name1	[ 0	locks=0 ]	(	""	)
+val1i	[ 0	locks=0 ]	(	0	0	0	0	)
+sval1	[ 0	locks=0 ]	(	""	)
+}
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot/point1.userdata"
+Content-Type: text/plain
+
+{
+	"___Version___":{
+		"type":"string",
+		"value":"17.5.391"
+	}
+}
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY
+Content-Disposition: attachment; filename="hdaroot.net"
+Content-Type: text/plain
+
+1
+
+--HOUDINIMIMEBOUNDARY0xD3ADD339-0x00000F49-0x56B122C9-0x00000001HOUDINIMIMEBOUNDARY--

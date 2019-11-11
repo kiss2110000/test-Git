@@ -1,0 +1,14 @@
+Operator:     Administrator_subnet1
+Label:        Subnet1
+Path:         oplib:/Sop/Administrator_subnet1?Sop/Administrator_subnet1
+Icon:         SOP_subnet
+Table:        Sop
+License:      
+Extra:        
+User:         
+Inputs:       0 to 0
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Fri Nov  8 17:28:27 2019
+

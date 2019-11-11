@@ -20,7 +20,7 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment ""
-position 6.0171 6.48184
+position 5.05971 6.31135
 connectornextid 1
 flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
 outputsNamed3
@@ -37,7 +37,7 @@ inputs
 stat
 {
   create 1573195182
-  modify 1573195198
+  modify 1573195303
   author Administrator@SJX
   access 0777
 }
@@ -77,7 +77,7 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment ""
-position 0 5.2176
+position -0.105882 4.05289
 connectornextid 1
 flags =  lock off model off template off footprint off xray off bypass off display on render on highlight off unload off savedata off compress on colordefault on exposed on
 outputsNamed3
@@ -94,7 +94,7 @@ inputs
 stat
 {
   create 1573195124
-  modify 1573195132
+  modify 1573198435
   author Administrator@SJX
   access 0777
 }
@@ -108,12 +108,6 @@ Content-Disposition: attachment; filename="hdaroot/timeshift1.chn"
 Content-Type: text/plain
 
 {
-    channel frame {
-      lefttype = extend
-      righttype = extend
-      flags = 0
-      segment { length = 0 expr = $F }
-    }
     channel time {
       lefttype = extend
       righttype = extend
@@ -153,7 +147,7 @@ Content-Type: text/plain
 {
 version 0.8
 method	[ 0	locks=0 ]	(	"byframe"	)
-frame	[ 0	locks=0 ]	(	[ frame	19 ] 	)
+frame	[ 0	locks=0 ]	(	19	)
 integerframe	[ 0	locks=0 ]	(	"on"	)
 time	[ 0	locks=0 ]	(	[ time	0.75 ] 	)
 rangeclamp	[ 0	locks=0 ]	(	"none"	)
